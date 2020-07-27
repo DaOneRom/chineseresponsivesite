@@ -1,0 +1,33 @@
+/* IE11 */
+#main #navbar .header-wrap .i-search form input.i-s-keys, ::-ms-backdrop {
+    height: 35px;
+}
+#main .slider-container .main-slide .slide.slidebox .slide-tabs li[style*='opacity: 1'] a.before::before, ::-ms-backdrop {
+    transform: translate(0%, 35%);
+}
+/* IE10 */
+.ie10 #main #navbar .header-wrap .i-search form input.i-s-keys {
+    height: 35px;
+}
+.ie10 #main .slider-container .main-slide .slide.slidebox .slide-tabs li[style*='opacity: 1'] a.slide-a.before::before {
+    transform: translate(0%, 35%);
+}
+/* IE9 */
+#main #navbar .header-wrap .i-search form input.i-s-keys {
+    height: 35px\9;
+}
+#main .slider-container .main-slide .slide.slidebox .slide-tabs li[style*='opacity: 1'] a.slide-a.before::before {
+    transform: translate(0%, 35%)\9;
+}
+#main #list .alpha-column .alphabox .alpha-barrel .tags-social .social span.active.moreshare .share-containers {
+    display: block\9;
+}
+#main #list .alpha-column .alphabox .alpha-barrel .tags-social .social span.moreshare .share-containers {
+    display: none\9;
+}
+#main #content .alpha-column .alphabox .alpha-barrel .tags-social .social .social-container .active.share-containers {
+    display: block\9;
+}
+#main #content .alpha-column .alphabox .alpha-barrel .tags-social .social .social-container .share-containers {
+    display: none\9;
+}
